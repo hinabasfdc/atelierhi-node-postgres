@@ -18,7 +18,7 @@ const server = http.createServer((req, httpRes) => {
   client.connect();
 
   //クエリー文字列にテーブル名を追加
-  let q = "SELECT * FROM " + TABLE_NAME;
+  let q = "SELECT * FROM " + TABLE_NAME + " LIMIT 100";
   client.query(q, (err, pgRes) => {
     if (err) {
       //エラーを画面に表示
