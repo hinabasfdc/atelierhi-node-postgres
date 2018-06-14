@@ -5,7 +5,7 @@
 - Heroku 上で動かすことを想定
 
 ## デプロイ
-- Heroku ボタンを使ってください。
+Heroku ボタンを使ってください。  
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## サンプルDBテーブルの作成
