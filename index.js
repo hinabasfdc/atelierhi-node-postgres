@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   client.connect();
 
   console.log(DATABASE_URL);
-  client.query('SELECT NOW()', (err,res) => {
+  client.query('SELECT NOW();', (err,res) => {
     console.log("trace1");
     if (err) {
       console.log(err.stack);
