@@ -1,0 +1,9 @@
+{
+  "name": "atelierhi-node-postgres",
+  "repositry": "https://github.com/hinabasfdc/atelierhi-node-postgres",
+  "env": {
+    "TABLE_NAME": {
+      "description": "Table name"
+    }
+  }
+}
