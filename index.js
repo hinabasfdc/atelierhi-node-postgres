@@ -4,7 +4,7 @@ const http = require('http');
 const { Client } = require('pg');
 
 const PORT = process.env.PORT || 8080;
-const DATABASE_URL = process.env.DATABASE_URL + "?ssl=true"; //SSLで通信するためのオプションを追加
+const DATABASE_URL = process.env.DATABASE_URL;
 const TABLE_NAME = process.env.TABLE_NAME;
 
 const server = http.createServer((req, httpRes) => {
@@ -14,6 +14,7 @@ const server = http.createServer((req, httpRes) => {
   //DB接続を生成
   const client = new Client({
     connectionString: DATABASE_URL,
+    ssl: true,
   });
   client.connect();
 
