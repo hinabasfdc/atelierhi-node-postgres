@@ -1,0 +1,23 @@
+{
+  "name": "atelierhi-node-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinabasfdc/atelierhi-node-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hinabasfdc/atelierhi-node-postgres/issues"
+  },
+  "homepage": "https://github.com/hinabasfdc/atelierhi-node-postgres#readme",
+  "dependencies": {
+    "pg": "^7.4.3"
+  }
+}
