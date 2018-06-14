@@ -1,6 +1,9 @@
 {
   "name": "atelierhi-node-postgres",
   "repositry": "https://github.com/hinabasfdc/atelierhi-node-postgres",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
   "env": {
     "TABLE_NAME": {
       "description": "Table name"
