@@ -6,7 +6,8 @@
   ],
   "env": {
     "TABLE_NAME": {
-      "description": "Table name"
+      "description": "Table name",
+      "value": "products"
     }
   }
 }
