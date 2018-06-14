@@ -1,7 +1,7 @@
 # atelierhi-node-postgres
 
 ## 概要
-- PostgreSQL にアクセスし、指定したテーブルの内容を一覧表示する Node.js プログラム
+- PostgreSQL にアクセスし、設定変数で指定したテーブルの内容を一覧表示する Node.js プログラム
 - Heroku 上で動かすことを想定
 
 ## デプロイ
