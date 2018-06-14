@@ -6,11 +6,11 @@
 
 ## デプロイ
 - Heroku ボタンを使ってください。
-- [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## サンプルDBテーブルの作成
 ### サンプルデータ
-- [products.csv](https://github.com/hinabasfdc/atelierhi-node-postgres/blob/master/product.csv)
+- [products.csv](https://github.com/hinabasfdc/atelierhi-node-postgres/blob/master/products.csv)
 ### テーブル作成 SQL コマンド
 ```
 create table products (
